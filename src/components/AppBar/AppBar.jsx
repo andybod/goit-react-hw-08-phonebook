@@ -1,13 +1,18 @@
 import AuthNav from 'components/AuthNav/AuthNav';
 import Navigation from 'components/Navigation/Navigation';
 import React from 'react';
+import { AppHeader } from './AppBar.styled';
 
 const AppBar = () => {
   return (
-    <header>
+    <AppHeader>
       <Navigation />
       <AuthNav />
-    </header>
+    </AppHeader>
+    //  <header>
+    //    <Navigation />
+    //    <AuthNav />
+    //  </header>
   );
 };
 
